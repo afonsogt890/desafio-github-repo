@@ -1,18 +1,22 @@
-# GitHub Repositories App
+# Desafio GitHub Repo
 
-A simple React application that fetches and displays public GitHub repositories for a given username.
+Aplicação React para pesquisar repositórios de utilizadores no GitHub, com suporte para tokens de acesso pessoal (PAT), tema escuro, e interface responsiva.
 
-## Features
-- Input a GitHub username to fetch repositories.
-- Display repository name, description, and star count.
-- Responsive and visually appealing UI.
+## Instruções para Compilar e Correr
 
-## Prerequisites
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+### Requisitos
+- **Node.js**: Versão 14 ou superior (recomenda-se a última LTS). Download em `https://nodejs.org`.
+- **Git**: Instale com `https://git-scm.com`.
+- **Navegador**: Chrome, Firefox, ou outro moderno.
 
-## Installation
-1. Clone or download the repository.
-2. Navigate to the project directory:
+### Passos
+1. **Clonar o Repositório**
    ```bash
-   cd github-repos-app
+   git clone https://github.com/afonsogt890/desafio-github-repo.git
+   cd desafio-github-repo
+
+2. **Instalar as dependências**
+   npm install
+
+3. **Correr Localmente**
+   npm start

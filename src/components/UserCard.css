@@ -1,0 +1,125 @@
+/* Estilos do cartão de perfil do utilizador */
+.user-profile {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0 auto 24px auto;
+  max-width: 408px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  --link-blue: #58a6ff; 
+  --hover-blue: #79c0ff; 
+}
+
+/* Imagem de avatar */
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Detalhes do utilizador */
+.user-details {
+  flex: 1;
+  text-align: left;
+}
+
+/* Nome do utilizador */
+.username {
+  font-size: 18px;
+  font-weight: 600;
+  color: #c9d1d9;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+}
+
+.username a {
+  color: var(--link-blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.username a:hover {
+  color: var(--hover-blue);
+  text-decoration: underline;
+}
+
+/* Biografia */
+.bio {
+  font-size: 14px;
+  color: #8b949e;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+/* Estatísticas */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 14px;
+  color: #8b949e;
+}
+
+.followers,
+.repos {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Ajustes para ecrãs pequenos (≤420px) */
+@media (max-width: 420px) {
+  .user-profile {
+    padding: 12px;
+    margin: 0 0 16px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .user-details {
+    text-align: center;
+  }
+
+  .username {
+    font-size: 1rem;
+  }
+
+  .bio,
+  .stats {
+    font-size: 13px;
+  }
+}
+
+/* Ecrãs muito pequenos (≤320px) */
+@media (max-width: 320px) {
+  .user-profile {
+    padding: 10px;
+    margin: 0 0 12px 0;
+  }
+
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+  }
+
+  .username {
+    font-size: 14px;
+  }
+
+  .bio,
+  .stats {
+    font-size: 12px;
+  }
+}

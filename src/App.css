@@ -1,0 +1,68 @@
+/* Estilos gerais da aplicação */
+* {
+  box-sizing: border-box;
+}
+
+/* Container principal */
+.App {
+  max-width: 896px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  background-color: #0d1117;
+  min-height: 100vh;
+  color: #c9d1d9;
+  --primary-green: #238636; 
+  --hover-green: #2ea043; 
+}
+
+/* Título da aplicação */
+.App h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Container de pesquisa e definições */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+/* Mensagem de erro */
+.error {
+  font-size: 14px;
+  color: #f85149;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* Mensagem de carregamento */
+.loading {
+  font-size: 14px;
+  color: #c9d1d9;
+  text-align: center;
+  margin: 16px 0;
+}
+
+/* Botão para carregar mais repositórios */
+.load-more-btn {
+  display: block;
+  margin: 16px auto;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--primary-green);
+  color: #fff;
+  border: 1px solid var(--primary-green);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.load-more-btn:hover {
+  background-color: var(--hover-green);
+}

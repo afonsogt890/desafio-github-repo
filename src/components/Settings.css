@@ -1,0 +1,83 @@
+/* Estilos do popup de definições */
+.token-settings {
+  position: relative;
+}
+
+/* Botão com gear icon */
+.gear-btn {
+  padding: 0.5rem;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: var(--btn-bg, #21262d);
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gear-btn:hover {
+  background-color: #30363d;
+}
+
+/* Popup para inserir token */
+.token-popup {
+  display: flex;
+  gap: 8px;
+  margin-top: 0.5rem;
+  background-color: #161b22;
+  padding: 8px;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  z-index: 10;
+}
+
+/* Campo de entrada do token */
+.pat-field {
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  width: 200px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  transition: border-color 0.2s ease;
+}
+
+.pat-field:focus {
+  outline: none;
+  border-color: var(--link-blue, #58a6ff);
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+}
+
+.pat-field::placeholder {
+  color: #8b949e;
+}
+
+/* Botão de salvar */
+.save-btn {
+  padding: 8px 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--primary-green, #238636);
+  color: #fff;
+  border: 1px solid var(--primary-green);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-btn:hover {
+  background-color: var(--hover-green, #2ea043);
+}

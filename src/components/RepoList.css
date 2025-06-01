@@ -1,0 +1,13 @@
+/* Estilos da grelha de repositórios */
+.repos-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Mensagem de ausência de repositórios */
+.repos-grid .no-repos {
+  font-size: 14px;
+  color: #8b949e;
+  text-align: center;
+  margin: 16px 0;
+}

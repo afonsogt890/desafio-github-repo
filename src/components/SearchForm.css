@@ -1,0 +1,46 @@
+/* Estilos da barra de pesquisa */
+.gh-search {
+  display: flex;
+  gap: 0.5rem;
+  width: 408px;
+}
+
+/* Campo de entrada */
+.search-box {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  transition: border-color 0.2s;
+}
+
+.search-box:focus {
+  outline: none;
+  border-color: var(--link-blue, #58a6ff);
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+}
+
+.search-box::placeholder {
+  color: #8b949e;
+}
+
+/* Botão de pesquisa */
+.search-btn {
+  padding: 8px 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--primary-green, #238636);
+  color: #fff;
+  border: 1px solid var(--primary-green);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-btn:hover {
+  background-color: var(--hover-green, #2ea043);
+}

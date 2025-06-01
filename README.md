@@ -1,8 +1,8 @@
 # Desafio GitHub Repo
 
-Aplicação React para pesquisar repositórios de utilizadores no GitHub, com suporte para tokens de acesso pessoal (PAT), tema escuro, e interface responsiva.
+Aplicação React para pesquisar repositórios de utilizadores no GitHub
 
-## Instruções para Compilar e Correr
+## Instruções para compilar e correr
 
 ### Requisitos
 - **Node.js**: Versão 14 ou superior (recomenda-se a última LTS). Download em `https://nodejs.org`.
